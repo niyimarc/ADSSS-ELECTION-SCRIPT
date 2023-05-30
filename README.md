@@ -4,7 +4,7 @@ This script has been created by Drey for the Association of Demography and Socia
 HOW TO USE THE SCRIPT?
 
 1. Create a Google Spreadsheet.
-2. The spreadsheet should have columns for ID, Name, Part/Level, and Code.
+2. The spreadsheet should have columns for ID, Name, Part/Level, and code. Make sure there is a column called "code"
 3. Input the data for all eligible voters, filling in the ID, Name, and Level fields only. The script will automatically generate the corresponding code.
 4. Click on "Extensions" and select "Apps Script".
 5. In the text editor that appears when you open "Apps Script," copy and paste the code from the script.js file.
@@ -12,3 +12,6 @@ HOW TO USE THE SCRIPT?
 
 
 By following the above steps, you should see a generated code for all students. Please note that each time a new student is added or updated, you will need to rerun the script to ensure that the code is updated for the new student.
+
+
+Contact me on twitter to learn more on how its used if the above instructions is not cleared https://twitter.com/AdeniyiDrey
