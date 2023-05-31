@@ -15,7 +15,8 @@ function generateUniqueCodes() {
   
       if (!code) { // Generate code only if it doesn't exist
         code = generateCode();
-        sheet.getRange(i + 1, 3).setValue(code); // Set the generated code in the third column
+        sheet.getRange(i + 1, 3).setValue(code); // Set the generated code in the third column assuming the code column is 3. 
+        // if the code column is the fourth column, you will need to change it to 4, ....
       }
     }
   }
